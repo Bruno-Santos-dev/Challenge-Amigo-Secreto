@@ -15,3 +15,5 @@
 ## Projeto foi criado por:
 <div>
   <img src="https://avatars.githubusercontent.com/u/196356872?s=96&v=4">
+  <p> Github : https://github.com/Bruno-Santos-dev <p>
+    
