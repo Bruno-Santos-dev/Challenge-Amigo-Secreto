@@ -1,20 +1,20 @@
 
 document.addEventListener("DOMContentLoaded", () => {
-    const inserirNome = document.getElementById("amigo"); // declarando/armazenando o id do html no caso "amigo "
-    const botãoAdicionar = document.querySelector(".button-add"); // declarando/armazenando a classe do html no caso "botão add "
-    const listaNomes = document.getElementById("listaAmigos"); // declarando/armazenando a id do html no caso "a lista de amigos "
-    const botãoSortear = document.querySelector(".button-draw"); // declarando/armazenando a classe do html no caso "botão de sortear 
-    const resultado = document.getElementById("resultado"); // declarando/armazenando a id do html no caso "o resultado da lista "
+    const inserirNome = document.getElementById("amigo"); 
+    const botãoAdicionar = document.querySelector(".button-add"); 
+    const listaNomes = document.getElementById("listaAmigos"); 
+    const botãoSortear = document.querySelector(".button-draw");  
+    const resultado = document.getElementById("resultado"); 
 
 
-    let nomes = []; // declarando os " nomes "
+    let nomes = []; 
     
      
 
-    botãoAdicionar.addEventListener("click", adicionarAmigo); //dando ação no botao adicionar amigo
-    botãoSortear.addEventListener("click", sortearAmigo); //dando ação no botao adicionar amigo
+    botãoAdicionar.addEventListener("click", adicionarAmigo); 
+    botãoSortear.addEventListener("click", sortearAmigo); 
 
-    function adicionarAmigo() { // se o nome for igual vazio "alert" continue
+    function adicionarAmigo() { 
         const nome = inserirNome.value.trim();
         if (nome === "") {
             alert("Por favor, insira um nome válido.");
